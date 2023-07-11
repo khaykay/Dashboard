@@ -1,0 +1,10 @@
+.dash_wrapper {
+  padding: 12px;
+  height: calc(100% - 93.4px);
+}
+.dash_container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 1.3fr;
+  column-gap: 15px;
+}

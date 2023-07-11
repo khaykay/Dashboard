@@ -38,7 +38,7 @@ const Navbar = () => {
           <span className="user_wrapper">
             <span className="user_avi"></span>
             <span className="user_name_wrapper">
-              <span className="user_name">annette max</span>
+              <span className="user_name md">annette max</span>
               <span className="user_email sm_text">annette@oplata.com</span>
             </span>
           </span>

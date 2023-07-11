@@ -1,13 +1,13 @@
 .navbar_wrapper {
   padding: 16px 40px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .navbar_container {
   display: grid;
   grid-template-columns: 1fr 1.7fr 1fr;
   column-gap: 10px;
 }
-.navbar_container span {
+span {
   display: inline-flex;
 }
 .logo_container {
@@ -55,7 +55,6 @@
 }
 .user_name {
   text-transform: capitalize;
-  font-size: 12px;
   font-weight: 700;
 }
 .sm_text {

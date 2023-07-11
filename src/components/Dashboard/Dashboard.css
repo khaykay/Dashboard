@@ -1,0 +1,9 @@
+.dashboard_wrapper {
+  height: 100%;
+  background-color: whitesmoke;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.dashboard_container {
+  height: 100%;
+}

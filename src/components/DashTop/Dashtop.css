@@ -1,0 +1,36 @@
+.balance_wrapper {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance_header {
+  font-size: 36px;
+}
+.grey_text {
+  color: rgb(154, 154, 154);
+  font-weight: 500;
+}
+.title {
+  gap: 5px;
+  align-items: flex-end;
+}
+.denomination {
+  font-weight: 700;
+  color: #8d4ff1;
+}
+.balance_right {
+  background-color: black;
+  padding: 8px 10px;
+  border-radius: 22px;
+  color: white;
+  font-size: 12px;
+}
+.md {
+  font-size: 12px;
+}
+
+.new {
+  align-items: center;
+  gap: 7px;
+}
