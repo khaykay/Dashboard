@@ -1,75 +1,80 @@
-export const UserData = {
+export const Data = {
+  profile: {
+    id: 1,
+    name: "Annette Max",
+    email: "annette@oplata.com",
+  },
   income: [
     {
       id: 1,
-      day: "mon",
+      label: "mon",
       amount: 3450,
     },
     {
       id: 2,
-      day: "tue",
+      label: "tue",
       amount: 4450,
     },
     {
       id: 3,
-      day: "wed",
+      label: "wed",
       amount: 7750,
     },
     {
       id: 4,
-      day: "thu",
+      label: "thu",
       amount: 8550,
     },
     {
       id: 5,
-      day: "fri",
+      label: "fri",
       amount: 7050,
     },
     {
       id: 6,
-      day: "sat",
+      label: "sat",
       amount: 2850,
     },
     {
       id: 7,
-      day: "sun",
+      label: "sun",
       amount: 3050,
     },
   ],
   expenditure: [
     {
       id: 1,
-      day: "mon",
+      label: "mon",
       amount: 3450,
     },
     {
       id: 2,
-      day: "tue",
+      label: "tue",
       amount: 1450,
     },
     {
       id: 3,
-      day: "wed",
+      label: "wed",
       amount: 750,
     },
     {
       id: 4,
-      day: "thu",
+      label: "thu",
       amount: 2750,
     },
     {
       id: 5,
-      day: "fri",
+      label: "fri",
       amount: 1650,
     },
     {
       id: 6,
-      day: "sat",
+      label: "sat",
       amount: 850,
     },
     {
       id: 7,
-      day: "sun",
+      label: "sun",
       amount: 3050,
     },
   ],
@@ -128,62 +133,62 @@ export const UserData = {
   assets: [
     {
       id: 1,
-      month: "jan",
+      label: "jan",
       amount: 130000.9,
     },
     {
       id: 2,
-      month: "feb",
+      label: "feb",
       amount: 430619.5,
     },
     {
       id: 3,
-      month: "mar",
+      label: "mar",
       amount: 650000.0,
     },
     {
       id: 4,
-      month: "apr",
+      label: "apr",
       amount: 79315.23,
     },
     {
       id: 5,
-      month: "may",
+      label: "may",
       amount: 173016.67,
     },
     {
       id: 6,
-      month: "jun",
+      label: "jun",
       amount: 92453.76,
     },
     {
       id: 7,
-      month: "jul",
+      label: "jul",
       amount: 653875.12,
     },
     {
       id: 8,
-      month: "aug",
+      label: "aug",
       amount: 345876.9,
     },
     {
       id: 9,
-      month: "sep",
+      label: "sep",
       amount: 435126.45,
     },
     {
       id: 10,
-      month: "oct",
+      label: "oct",
       amount: 222345.45,
     },
     {
       id: 11,
-      month: "nov",
+      label: "nov",
       amount: 523477.13,
     },
     {
       id: 12,
-      month: "dec",
+      label: "dec",
       amount: 145903.55,
     },
   ],
