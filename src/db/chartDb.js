@@ -7,8 +7,9 @@ export const chartDb = {
       {
         label: "assets",
         data: Data.assets.map((data) => [data.high, data.low]),
-        borderColor: "rgba(36,114,253,0.9)",
+        borderColor: "rgba(36,114,253,0.7)",
         backgroundColor: "rgba(36,114,253,0.7)",
+        // barThickness: 20,
       },
     ],
   },

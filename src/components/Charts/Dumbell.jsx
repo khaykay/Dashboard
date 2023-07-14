@@ -59,7 +59,8 @@ const options = {
       },
     },
   },
-  borderRadius: 4,
+  // borderRadius: 1000,
+  // borderSkipped: false,
 };
 
 const Dumbell = ({ data }) => {
