@@ -55,31 +55,12 @@ export const options = {
     },
   },
 };
-const data = {
-  labels: Data.income?.map((data) => data.label),
-  datasets: [
-    {
-      label: "Income",
-      data: Data.income.map((data) => data.amount),
-      backgroundColor: "rgba(255, 99, 132, 0.5)",
-      type: "line",
-      borderColor: "rgb(255, 99, 132)",
-      borderWidth: 2,
-      fill: false,
-    },
-    {
-      type: "bar",
-      label: "Income",
-      data: Data.income.map((data) => data.amount),
-      backgroundColor: "rgba(53, 162, 235, 0.5)",
-    },
-  ],
-};
 
-const BarChart = ({ priority }) => {
+const BarChart = ({ data }) => {
+  const newObject = Object.assign({}, data);
   return (
     <div>
-      <Chart type="bar" data={data} options={options} />
+      <Chart type="bar" data={newObject} options={options} />
     </div>
   );
 };

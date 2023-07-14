@@ -93,4 +93,7 @@ span {
   .logo_container {
     margin-top: 5px;
   }
+  .nav_icons > i {
+    font-size: 18px;
+  }
 }

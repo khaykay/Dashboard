@@ -32,7 +32,7 @@ const Navbar = () => {
               <i class="material-symbols-outlined icon">list_alt</i>
             </span>
             <span className="nav_icons">
-              <span className="material-symbols-outlined icon">equalizer</span>
+              <i className="material-symbols-outlined icon">equalizer</i>
             </span>
           </span>
           <span className="user_wrapper">

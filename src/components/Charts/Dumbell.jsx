@@ -62,18 +62,6 @@ const options = {
   borderRadius: 4,
 };
 
-// const data = {
-//   labels: Data.assets?.map((data) => data.label),
-//   datasets: [
-//     {
-//       label: "assets",
-//       data: Data.assets.map((data) => [data.high, data.low]),
-//       borderColor: "rgba(36,114,253,0.9)",
-//       backgroundColor: "rgba(36,114,253,0.7)",
-//     },
-//   ],
-// };
-
 const Dumbell = ({ data }) => {
   const newObject = Object.assign({}, data);
   return (

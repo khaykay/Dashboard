@@ -60,21 +60,11 @@ const options = {
   },
 };
 
-const data = {
-  labels: Data.expenditure?.map((data) => data.label),
-  datasets: [
-    {
-      label: "expenditure",
-      data: Data.expenditure.map((data) => data.amount),
-      borderColor: "rgb(255, 99, 132)",
-      backgroundColor: "rgba(255, 99, 132, 0.5)",
-    },
-  ],
-};
-const HorizontalBar = ({ priority }) => {
+const HorizontalBar = ({ data }) => {
+  const newObject = Object.assign({}, data);
   return (
     <div>
-      <Bar options={options} data={data} />
+      <Bar options={options} data={newObject} />
     </div>
   );
 };
