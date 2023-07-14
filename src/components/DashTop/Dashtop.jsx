@@ -13,8 +13,8 @@ const Dashtop = () => {
         </div>
         <div className="balance_right">
           <span className="new">
-            <i class="material-symbols-outlined ">add_circle</i>Open an account
-            or deposit
+            <i className="material-symbols-outlined ">add_circle</i>
+            <span className="new_title">account or deposit</span>
           </span>
         </div>
       </section>

@@ -5,9 +5,9 @@ import Home from "./components/Home/Home";
 
 function App() {
   return (
-    <>
+    <div className="cover">
       <Home />
-    </>
+    </div>
   );
 }
 

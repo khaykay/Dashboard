@@ -17,22 +17,22 @@ const Navbar = () => {
           </span>
           <span className="nav_icons_wrapper">
             <span className="nav_icons">
-              <i class="material-symbols-outlined">home_app_logo</i>
+              <i className="material-symbols-outlined">home_app_logo</i>
             </span>
             <span className="nav_icons">
-              <i class="material-symbols-outlined icon">inventory_2 </i>
+              <i className="material-symbols-outlined icon">inventory_2 </i>
             </span>
             <span className="nav_icons">
-              <i class="material-symbols-outlined icon">widgets</i>
+              <i className="material-symbols-outlined icon">widgets</i>
             </span>
             <span className="nav_icons">
-              <i class="material-symbols-outlined icon">sync_alt</i>
+              <i className="material-symbols-outlined icon">sync_alt</i>
             </span>
             <span className="nav_icons">
               <i class="material-symbols-outlined icon">list_alt</i>
             </span>
             <span className="nav_icons">
-              <span class="material-symbols-outlined icon">equalizer</span>
+              <span className="material-symbols-outlined icon">equalizer</span>
             </span>
           </span>
           <span className="user_wrapper">

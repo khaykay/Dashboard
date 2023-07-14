@@ -13,5 +13,11 @@
     )
     1;
 
-  height: calc(100vh - 69px);
+  /* height: calc(100vh - 69px); */
+}
+@media screen and (max-width: 480px) {
+  /*main wrapper*/
+  .main_wrapper {
+    margin-top: 8px;
+  }
 }

@@ -8,3 +8,31 @@
   grid-template-columns: 2fr 1.3fr;
   column-gap: 15px;
 }
+.loader {
+  position: fixed;
+}
+.loader {
+  background-color: rgba(255, 255, 255, 1);
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 800px) {
+  .dash_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

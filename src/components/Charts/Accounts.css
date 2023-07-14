@@ -1,0 +1,18 @@
+.account {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.acc_left {
+  gap: 12px;
+}
+.acc_card {
+  flex-direction: column;
+}
+.bold {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.acc_right {
+  flex-direction: column;
+}

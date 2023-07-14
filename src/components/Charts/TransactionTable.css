@@ -1,0 +1,74 @@
+th {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0;
+  height: 30px;
+}
+
+.avi {
+  height: 35px;
+  width: 35px;
+  display: block;
+  background-color: bisque;
+}
+.transactiontable {
+  width: 100%;
+}
+.thead {
+  padding: 4px;
+}
+.tbody {
+  text-align: center;
+}
+.name_span {
+  flex-direction: column;
+}
+.status {
+  padding: 2px 4px;
+  /* border: 1px solid gray; */
+  border-radius: 17px;
+  align-items: center;
+  gap: 3px;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 6px -3px rgba(0, 0, 0, 0.13);
+}
+.transaction-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .transactiontable {
+    display: none;
+  }
+  .transaction-mobile {
+    display: block;
+  }
+  .user-div {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 2px 6px -3px rgba(0, 0, 0, 0.13);
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    padding: 8px;
+    align-items: center;
+  }
+  .user-div > div {
+    flex-basis: 40%;
+    border-radius: none;
+    font-size: 12px;
+  }
+  .mob_header {
+    display: inline-flex;
+    width: 100%;
+    padding: 6px 0;
+  }
+  .mob_header > span {
+    flex-basis: 40%;
+    margin-left: 10px;
+  }
+  .mob {
+    flex-direction: column;
+  }
+}

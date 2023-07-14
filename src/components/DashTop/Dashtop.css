@@ -34,3 +34,15 @@
   align-items: center;
   gap: 7px;
 }
+
+@media screen and (max-width: 680px) {
+  .balance_header {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .new_title {
+    display: none;
+  }
+}

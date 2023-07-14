@@ -1,6 +1,5 @@
 .navbar_wrapper {
   padding: 16px 40px;
-  /* border: 1px solid red; */
 }
 .navbar_container {
   display: grid;
@@ -68,4 +67,30 @@ span {
 
 .icon {
   font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo_text {
+    font-size: medium;
+    font-weight: 600;
+  }
+  .logo_icon {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+  }
+  .navbar_wrapper {
+    padding: 8px 15px;
+  }
+  .user_wrapper {
+    display: none;
+  }
+  .navbar_container {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+  .logo_container {
+    margin-top: 5px;
+  }
 }
