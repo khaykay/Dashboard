@@ -12,12 +12,12 @@ const Dashwidget = () => {
     function handleResize() {
       if (!isResizing) {
         setIsResizing(true);
-        // Your code to handle the resize event
+
         window.location.reload(true);
 
         resizeTimer = setTimeout(() => {
           setIsResizing(false);
-        }, 200); // Adjust the delay (in milliseconds) as needed
+        }, 200);
       }
     }
 

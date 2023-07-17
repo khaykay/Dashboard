@@ -70,7 +70,7 @@ export const config = {
             padding: "15px",
           },
           dataSource: "/api/pie-chart-data",
-          priority: 2,
+          priority: 1,
         },
         {
           type: "dumbell",
@@ -83,7 +83,7 @@ export const config = {
             boxShadow: "0px 10px 15px -3px rgba(0,0,0,0.1)",
           },
           dataSource: chartDb.dumbell,
-          priority: 1,
+          priority: 2,
         },
         {
           type: "accounts",

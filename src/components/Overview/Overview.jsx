@@ -11,12 +11,14 @@ const Overview = ({ widgets }) => {
 
   useEffect(() => {
     if (step <= priority) {
-      const data = orderWidgets(widgets, step, savedData);
+      setTimeout(() => {
+        const data = orderWidgets(widgets, step, savedData);
 
-      if (data) {
-        setStep(data.step);
-        setSavedData([...data.widgetArray]);
-      }
+        if (data) {
+          setStep(data.step);
+          setSavedData([...data.widgetArray]);
+        }
+      }, 1500);
     }
   }, [step]);
 
