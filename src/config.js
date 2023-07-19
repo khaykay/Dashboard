@@ -14,7 +14,7 @@ export const config = {
             gridArea: "1/ 1/ span 1 / span 2",
             padding: "15px",
           },
-          dataSource: "/api/pie-chart-data",
+          dataSource: "",
           priority: 1,
         },
         {
@@ -69,7 +69,7 @@ export const config = {
             gridArea: "1/ 1/ span 1 / span 1",
             padding: "15px",
           },
-          dataSource: "/api/pie-chart-data",
+          dataSource: "",
           priority: 1,
         },
         {
